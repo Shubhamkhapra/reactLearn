@@ -1,0 +1,18 @@
+.active_class{
+    color: white;
+    border-bottom: 1px solid red;
+  }
+
+.active_class:link{
+  color: white;
+}
+.active_class:visited{
+  color: white;
+}
+.active_class:hover{
+  color: aqua;
+}
+.active_class:active{
+  color: white;
+  border-bottom: 1px solid red;
+}

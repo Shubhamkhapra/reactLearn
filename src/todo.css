@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
+  
+  .heading {
+    font-size: 3rem;
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .img_div {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #9b59b6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main_div{
+    width: 100%;
+    height: 100vh;
+    background:#6983aa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .center_div{
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+  /* div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #9b59b6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+  
+  h1 {
+    color: white;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+    background-color: #8566aa;
+    padding: 6px 0 px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) ;
+  }
+  
+  input {
+      text-align: center;
+      height: 30px;
+      border: none;
+    width: 60%;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+    margin-right: 20px;
+    /* text-align: center; */
+  }
+  
+  .new_Btn{
+    min-height: 40px;
+    width: 50px;
+    border-radius: 50% !important;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) ;
+  }
+
+  .new_Btn:hover{
+      background-color: #20bf6b !important;
+      color: #16a085 !important;
+
+  }
+
+  ol{
+      margin-top: 30px;
+  }
+
+  ol li {
+      padding-left: 0px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #8566aa;
+      text-transform: capitalize;
+  }
+
+  input,
+  input:focus,
+  input:active,
+  input:active:focus {
+    border: none;
+    padding: 2.3rem 1.5rem;
+    outline: none;
+  }
+  input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  /* input:focus {
+    -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  } */
+  
+  /*  Please Subscribe to ThapaTechnical Youtube Channel
+  /* Click Here: https://www.youtube.com/thapatechnical  */
+  
+.todo_style{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    
+}
+.todo_style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) ;
+}
+
+  .todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fa {
+    margin-left: -2.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    background-color: #fff;
+    background-image: none;
+    color: #666;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 2rem;
+  }
+  .fa:hover {
+    color: rgb(47, 214, 122);
+  }
+  
+  .fa-plus:before {
+    content: "\f067";
+    font-size: 1.5rem;
+  }
+  
+  .showItems {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .eachItem {
+    background: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-left: 1rem;
+    min-width: 40rem;
+    word-break: break-word;
+    background: rgb(85, 41, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .eachItem:hover {
+    background: rgb(249, 249, 252);
+    color: rgb(85, 41, 220);
+  }
+  
+  .showItems .eachItem h3 {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  .fa-trash-alt,
+  .fa-edit {
+    /* margin-left: -2.5rem; */
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    color: rgb(251, 251, 251);
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 2rem;
+  }
+  
+  .addItems .fa-edit {
+    color: rgb(47, 214, 122);
+  }
+  
+  .fa-edit {
+    margin-left: -3.5rem;
+  }
+  
+  /*  Please Subscribe to ThapaTechnical Youtube Channel
+  /* Click Here: https://www.youtube.com/thapatechnical  */
+  
+  .eachItem:hover .fa-trash-alt {
+    color: rgb(214, 47, 61);
+  }
+  
+  .eachItem:hover .fa-edit {
+    color: rgb(100, 214, 47);
+  }
+  
+  .eachItem:hover h3 {
+    color: rgb(85, 41, 220);
+  }
+  
+  .btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .effect04 {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #000;
+    outline: solid 2px #000;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+  
+  .effect04::before,
+  .effect04 span {
+    margin: 0 auto;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 0.4s;
+  }
+  
+  .effect04:hover {
+    background-color: rgb(85, 41, 220);
+  }
+  
+  .effect04:hover span {
+    -webkit-transform: translateY(-400%) scale(-0.1, 20);
+    transform: translateY(-400%) scale(-0.1, 20);
+  }
+  
+  .effect04::before {
+    content: attr(data-sm-link-text);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(500%) scale(-0.1, 20);
+    transform: translateY(500%) scale(-0.1, 20);
+  }
+  
+  .effect04:hover::before {
+    letter-spacing: 0.05em;
+    -webkit-transform: translateY(0) scale(1, 1);
+    transform: translateY(0) scale(1, 1);
+  }
